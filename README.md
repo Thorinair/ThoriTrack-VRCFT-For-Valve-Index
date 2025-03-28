@@ -42,6 +42,8 @@ This repository provides the STL files for 3D printing out your own ThoriTrack, 
 * 2x M4 Lock Nut
 
 **Extras:**
+* Male Header Connectors
+* Female Dupont Connectors
 * Black Insulation Tape
 * Wires for wiring it up
 
