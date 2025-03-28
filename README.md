@@ -1,6 +1,6 @@
 # ThoriTrack - EyeTrackVR For Valve Index
 
-ThoriTrack is a mounting solution designed by Thorinair for mounting EyeTrackVR related hardware to the Valve Index. Primary goal of the design is to make it more robust and "industrial".
+ThoriTrack is a mounting solution designed by Thorinair for mounting EyeTrackVR related hardware to the Valve Index. Primary goal of the design is to make it more robust and "industrial" without having to modify anything on the Valve Index.
 
 ![Overview Front](img/Overview-Front.jpg?raw=true)
 ![Overview Lens](img/Overview-Lens.jpg?raw=true)
