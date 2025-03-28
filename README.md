@@ -15,6 +15,7 @@ This repository provides the STL files for 3D printing out your own ThoriTrack, 
 ## Hardware:
 
 **Electronics:**
+* 1x HTC Vive Facial Tracker
 * 1x EyeTrackVR V4 Lite DIY LED Kit - [EyeTrackVR Store](https://store.eyetrackvr.dev/products/v4-1-lite-diy-led-kit)
 * 1x USB A to USB-C - [Amazon](https://www.amazon.de/dp/B0B5WQW3LD?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 * 1x USB Hub with MTT - [Amazon](https://www.amazon.de/dp/B07YN54Q33?ref=ppx_yo2ov_dt_b_fed_asin_title)
