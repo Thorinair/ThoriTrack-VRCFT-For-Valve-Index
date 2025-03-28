@@ -2,6 +2,9 @@
 
 ThoriTrack is a mounting solution designed by Thorinair for mounting EyeTrackVR related hardware to the Valve Index. Primary goal of the design is to make it more robust and "industrial".
 
+![Overview Front](img/Overview-Front.jpg?raw=true)
+![Overview Lens](img/Overview-Lens.jpg?raw=true)
+
 This repository provides the STL files for 3D printing out your own ThoriTrack, as well as source blend files.
 
 **NOTE: This repository is still under heavy construction. Need to add tutorials and descriptions for assembly.**
@@ -19,7 +22,7 @@ This repository provides the STL files for 3D printing out your own ThoriTrack, 
 * 1x EyeTrackVR V4 Lite DIY LED Kit - [EyeTrackVR Store](https://store.eyetrackvr.dev/products/v4-1-lite-diy-led-kit)
 * 1x USB A to USB-C - [Amazon](https://www.amazon.de/dp/B0B5WQW3LD?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 * 1x USB Hub with MTT - [Amazon](https://www.amazon.de/dp/B07YN54Q33?ref=ppx_yo2ov_dt_b_fed_asin_title)
-* 2x USB C to USB C cable - [Amazon](https://www.amazon.de/dp/B09C2D9Z7T?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
+* 2x USB-C to USB-C cable - [Amazon](https://www.amazon.de/dp/B09C2D9Z7T?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
 * 2x XIAO ESP32S3 Sense boards - [AliExpress](https://www.aliexpress.com/item/1005004788285643.html?spm=a2g0o.order_list.order_list_main.335.27e01802Ww8woQ)
 * 2x 75MM-160 850nm OV2640 Camera - [AliExpress](https://www.aliexpress.com/item/1005003040149873.html?spm=a2g0o.order_list.order_list_main.340.27e01802Ww8woQ)
 * 2x 200mm A, 24p 0.5mm pitch Camera Extension Cable - [AliExpress](https://www.aliexpress.com/item/4000022157163.html?spm=a2g0o.order_detail.order_detail_item.5.3bfbf19cXqxT1M)
