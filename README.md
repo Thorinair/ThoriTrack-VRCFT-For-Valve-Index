@@ -1,6 +1,6 @@
-# ThoriTrack - EyeTrackVR For Valve Index
+# ThoriTrack - VRCFT For Valve Index
 
-ThoriTrack is a mounting solution designed by Thorinair for mounting EyeTrackVR related hardware to the Valve Index. Primary goal of the design is to make it more robust and "industrial" without having to modify anything on the Valve Index.
+ThoriTrack is a mounting solution designed by Thorinair for mounting EyeTrackVR related hardware, and HTC Vive Facial Tracker to the Valve Index. Primary goal of the design is to make it more robust and "industrial" compared to other mounts without having to modify anything on the Valve Index.
 
 ![Overview Front](img/Overview-Front.jpg?raw=true)
 ![Overview Lens](img/Overview-Lens.jpg?raw=true)
@@ -42,12 +42,18 @@ This repository provides the STL files for 3D printing out your own ThoriTrack, 
 * 2x M4 Lock Nut
 
 **Extras:**
-* Male Header Connectors
-* Female Dupont Connectors
+* 3x Male 1x2 Header Connectors
+* 3x Female 1x2 Dupont Connectors
 * Black Insulation Tape
 * Wires for wiring it up
+
+## Recommended Software:
+
+* Eye Tracking: [Ryan9411's ML based Eye Tracking](https://github.com/ryan9411vr/EyeTracking)
+* Face Tracking: [Vive SRanipal Software (VRCFT Docs Page)](https://docs.vrcft.io/docs/hardware/addons/vive/face-tracker)
+
 
 ## Credits
 
 * Bottom part of the eye ring is based on the [Phys-Index-EyetrackVR-HW](https://github.com/Physics-Dude/Phys-Index-EyetrackVR-HW) eye rings, with one of the LEDs moved away from the nose, as well as the camera mount removed.
-* The HTC Vive Facial Tracker arm is based on the ["Road to Alcoholism"](https://docs.vrcft.io/docs/hardware/addons/vive/face-tracker#valve-index) design, with the arm slightly lengthened and changed around to support a nuts and screws.
+* The HTC Vive Facial Tracker arm is based on the ["Road to Alcoholism"](https://docs.vrcft.io/docs/hardware/addons/vive/face-tracker#valve-index) design, with the arm slightly lengthened and changed around to support nuts and screws.
