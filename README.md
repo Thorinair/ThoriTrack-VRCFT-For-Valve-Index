@@ -12,12 +12,12 @@ This repository provides the STL files for 3D printing out your own ThoriTrack, 
 ## Folders
 
 * `blend` - Contains source Blender files for the mount.
-* `stl/front` - Contains printable STL files for the front mount.
-* `stl/lens` - Contains printable STL files for the eye rings.
+* `stl` - Contains printable STL files and instructions on how to print them.
 
 ## Hardware:
 
 **Electronics:**
+
 * 1x HTC Vive Facial Tracker
 * 1x EyeTrackVR V4 Lite DIY LED Kit - [EyeTrackVR Store](https://store.eyetrackvr.dev/products/v4-1-lite-diy-led-kit)
 * 1x USB A to USB-C - [Amazon](https://www.amazon.de/dp/B0B5WQW3LD?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)
@@ -29,6 +29,7 @@ This repository provides the STL files for 3D printing out your own ThoriTrack, 
 * 2x Flat Cable Extension Connector - [AliExpress](https://www.aliexpress.com/item/1005004283030442.html?spm=a2g0o.order_list.order_list_main.324.27e01802Ww8woQ)
 
 **Screws:**
+
 * 1x M2*5 Counter Sunk Self-Tapping Screw
 * 8x M2*6 Hex Head Screw
 * 2x M2x8 Hex Head Screw
@@ -42,10 +43,13 @@ This repository provides the STL files for 3D printing out your own ThoriTrack, 
 * 2x M4 Lock Nut
 
 **Extras:**
+
+* Double sided tape
 * 3x Male 1x2 Header Connectors
 * 3x Female 1x2 Dupont Connectors
 * Black Insulation Tape
 * Wires for wiring it up
+* (Optional) 2x 8.8x8.8x5mm Aluminum Heatsinks [AliExpress](https://www.aliexpress.com/item/1005004079109702.html?spm=a2g0o.order_list.order_list_main.11.5b9a1802sGerX3)
 
 ## Recommended Software:
 
