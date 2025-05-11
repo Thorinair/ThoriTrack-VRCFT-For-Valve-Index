@@ -9,6 +9,10 @@ This repository provides the STL files for 3D printing out your own ThoriTrack, 
 
 **NOTE: This repository is still under heavy construction. Need to add tutorials and descriptions for assembly.**
 
+## Assembly Guide
+
+You can read the assembly guide here: [ThoriTrack - Assembly Guide](guide/README.md)
+
 ## Folders
 
 * `blend` - Contains source Blender files for the mount.

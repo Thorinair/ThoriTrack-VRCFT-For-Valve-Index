@@ -1,4 +1,4 @@
-# 3D Printable Files
+# ThoriTrack - 3D Printable Files
 
 You can find all of the 3D printable STL files in this folder. The files are sorted in `front` and `lens` folders depending on which section of the build they belong to. Files are optimized for FDM (filament) printers and should be printed exactly as oriented as they are already prepared to fit well. You may use PLA for all parts, but the two parts labeled as Frunk may experience some warping from the heat. Pay attention to the printer settings listed for each section and individual parts.
 
