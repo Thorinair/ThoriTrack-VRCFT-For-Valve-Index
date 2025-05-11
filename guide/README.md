@@ -26,17 +26,15 @@ Afterwards, you can focus by hand. Below is an example for the focusing procedur
 
 ![Assembly 02](img/02.jpg?raw=true)
 
-To get a better preview of the camera, grab one of the printed `EyeRing_Top_L` lens parts and insert the camera into it like on the image below. Then bring it close to your eye as if it was the lens of your Index. Use this as the proper focusing image and make any adjustments until you get a clear image.
+To get a better preview of the camera, grab one of the printed `EyeRing_Top_L` lens parts and insert the camera into it like on the image below. Then bring it close to your eye as if it was the lens of your Index. Use this as the proper focusing image and make any adjustments until you get a clear image. Repeat this process for both cameras to get good clear image.
 
 ![Assembly 03](img/03.jpg?raw=true)
 
 ![Assembly 04](img/04.jpg?raw=true)
 
-Repeat this process for both cameras to get good clear image.
-
 ## 4. Building The Eye Tracking Assembly
 
-This is the main module that goes on the front of the headset. We will assemble it first.
+This is the main assembly that goes on the front of the headset. We will build it first.
 
 Begin by soldering together the V4 Lite board. Follow the [Official Guide](https://docs.eyetrackvr.dev/how_to_build/led_setup#wiring-up-v4-lite) for this. You want to use the resistor for Dual Eye setup. In addition to the guide, also solder in 3 sets of 2x1 header pins. This will allow you to unplug stuff easier.
 
@@ -52,7 +50,7 @@ We will now do the worst part, and that is assembling the LEDs. You want to crea
 
 ![Assembly 08](img/08.jpg?raw=true)
 
-Test the assemblies to see if they work. Plug the ESP with the soldered wire into the V4 Lite board, as well as the 2 LED wires. **MIND THE POLARITY.** Polarity is marked on the V4 Lite board, or just have a look at the image below. Once plugged in, use the camera's feed to verify that all of the LEDs work.
+Test the assemblies to see if they work. Plug the ESP with the soldered wire into the V4 Lite board, as well as the 2 LED wires. **MIND THE POLARITY.** Polarity is marked on the V4 Lite board, or just have a look at the image below. Once plugged in, use the camera feed to verify that all of the LEDs work.
 
 ![Assembly 09](img/09.jpg?raw=true)
 
@@ -98,7 +96,7 @@ Finally, put the `Cover` printed file over the electronics and tighten it down u
 
 ![Assembly 20](img/20.jpg?raw=true)
 
-The assembly of the Eye Tracking Assembly is now complete! You can put it to the side while you prepare the Index itself for attaching this to it.
+The construction of the Eye Tracking Assembly is now complete! You can put it to the side while you prepare the Index itself for attaching this to it.
 
 ![Assembly 21](img/21.jpg?raw=true)
 
