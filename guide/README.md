@@ -12,7 +12,7 @@ This build has many different 3D printed parts. Print them according to the [3D 
 
 ## 3. Firmware Flashing
 
-First prepare the ESPs with the cameras. You want to use the camera cable extender cables as well as the extender sockets that you previously bought. These are all needed so that the cable can reach the lens of the Index. You can use the [Official Guide](https://docs.eyetrackvr.dev/how_to_build/preparing_xiao) to get the general idea for assembly. The final should look like on the image below. You will be running in wired mode.
+First prepare the ESPs with the cameras. You want to use the camera extension cables as well as the extension connectors that you previously bought. These are all needed so that the cable can reach the lens of the Index. You can use the [Official Guide](https://docs.eyetrackvr.dev/how_to_build/preparing_xiao) to get the general idea for assembly. The final should look like on the image below. You will be running the ESPs in wired mode.
 
 ![Assembly 01](img/01.jpg?raw=true)
 
@@ -20,13 +20,13 @@ Once assembled like this, flash firmware on both of them. You can follow the [Of
 
 ## 4. Camera Focusing
 
-This is a good time to focus the cameras, as it will be difficult later on. ThoriTrack holds cameras by their lens so you cannot focus them afterwards. To focus the cameras, find some small piece of text that you can use. Think of it like an eye test. Grip the camera by the base with a tool like pliers, and grip the lens with another pliers. Carefully twist until the glue gives way.
+This is a good time to focus the cameras, as it will be difficult later on. ThoriTrack holds cameras by their lens so you cannot focus them afterwards without releasing their clamps. To focus the cameras, find some small piece of text that you can use. Think of it like an eye test. Grip the camera by the base with a tool like pliers, and grip the lens with another set of pliers. Carefully twist until the glue gives way.
 
 Afterwards, you can focus by hand. Below is an example for the focusing procedure. You can use the ETVR app to monitor what the camera is seeing.
 
 ![Assembly 02](img/02.jpg?raw=true)
 
-To get a better preview of the camera, grab one of the printed `EyeRing_Top_L` lens parts and insert the camera into it like on the image below. Then bring it close to your eye as if it was the lens of your Index. Use this as the proper focusing image and make any adjustments until you get a clear image. Repeat this process for both cameras to get good clear image.
+To get a better preview of the camera, grab one of the printed `EyeRing_Top_L` lens parts and insert the camera into it like on the image below. Then bring it close to your eye as if it was the lens of your Index. Use this as the proper focusing image and make any adjustments until you get a clear image. Repeat this process for both cameras to get a good clear image.
 
 ![Assembly 03](img/03.jpg?raw=true)
 
@@ -40,7 +40,7 @@ Begin by soldering together the V4 Lite board. Follow the [Official Guide](https
 
 ![Assembly 05](img/05.jpg?raw=true)
 
-Now take off the camera hat from **one** of the ESPs and solder in 2 wires for powering the V4 Lite board. Red into VUSB, black into GND. Crimp together a 1x2 female dupont connector for easier unplugging. Cut off any excess solder on the bottom of the ESP so that it is flush. It should look exactly like on the image below once done. Once done, return the hat onto the ESP.
+Now take off the camera hat from **one** of the ESPs and solder in 2 wires for powering the V4 Lite board. Red into VUSB, black into GND. Thread the wires from the top and solder on the bottom. Crimp together a 1x2 female dupont connector for easier unplugging. Cut off any excess solder on the bottom of the ESP so that it is flush. It should look exactly like on the image below once done. Afterwards, return the hat onto the ESP.
 
 ![Assembly 06](img/06.jpg?raw=true)
 
@@ -50,7 +50,7 @@ We will now do the worst part, and that is assembling the LEDs. You want to crea
 
 ![Assembly 08](img/08.jpg?raw=true)
 
-Test the assemblies to see if they work. Plug the ESP with the soldered wire into the V4 Lite board, as well as the 2 LED wires. **MIND THE POLARITY.** Polarity is marked on the V4 Lite board, or just have a look at the image below. Once plugged in, use the camera feed to verify that all of the LEDs work.
+Test the assemblies to see if they work. Plug the ESP with the soldered wire into the V4 Lite board, as well as the 2 LED wires. **MIND THE POLARITY AND WHERE YOU PLUG THEM.** Polarity is marked on the V4 Lite board, or just have a look at the image below. Once plugged in, use the camera feed to verify that all of the LEDs work.
 
 ![Assembly 09](img/09.jpg?raw=true)
 
@@ -72,11 +72,11 @@ Place the previously soldered LEDs and the camera into their correct slots on th
 
 ![Assembly 14](img/14.jpg?raw=true)
 
-Place the `EyeRing_Top_L` and `EyeRing_Top_R` printed parts over the bottom ones, effectively covering the LEDs. This serves as a holding system instead of using hotglue or some other type of glue. Secure each of the rings with 2x M2*6 Hex Head Screw and 1x M2x8 Hex Head Screw. Use the longer screw with the hole closest to the camera. Tighten the screws slowly and carefully so that the rings dont bind or break. These are small and fragile parts.
+Place the `EyeRing_Top_L` and `EyeRing_Top_R` printed parts over the bottom ones, effectively covering the LEDs. This serves as a holding system, instead of using hotglue or some other type of glue. Secure each of the rings with 2x M2*6 Hex Head Screws and 1x M2x8 Hex Head Screw. Use the longer screw on the hole closest to the camera. Tighten the screws slowly and carefully so that the rings dont bind or break. These are small and fragile parts.
 
 ![Assembly 15](img/15.jpg?raw=true)
 
-Place the cameras into the round half-slots and tighten them using the `EyeRing_Camera` printed parts. There is one for each eye. Use 2x M2*6 Hex Head Screw to tighten. The final eyering assembly should look like on the image below. Do this for both left and right eyes.
+Place the cameras into the round half-slots and tighten them using the `EyeRing_Camera` printed parts. There is one for each eye. Use 2x M2*6 Hex Head Screws to tighten. The final eye ring assembly should look like on the image below. Do this for both left and right eyes.
 
 This is also the point at which you can attach the heatsinks to the cameras. This is not necessary from my experience, and will significantly lower the max IPD (by around 5 mm). However, if you feel like you want to do this, you can!
 
@@ -86,11 +86,11 @@ Lay the two eyerings out on your work area and make note of how the camera cable
 
 ![Assembly 17](img/17.jpg?raw=true)
 
-Turn the eye rings around and use electrical tape to tape the LED wires with the camera cables. You can do it every few stops in order to secure them. THe result should be like on the image below. Make note of how the wires are threaded in relation to the camera cables, as well as how the camera cable is not twisted.
+Turn the eye rings around and use electrical tape to tape the LED wires with the camera cables. You can do it every few stops in order to secure them. The result should be like on the image below. Make note of how the wires are threaded in relation to the camera cables, as well as how the camera cable is not twisted.
 
 ![Assembly 18](img/18.jpg?raw=true)
 
-Tape the camera and LED wires up like on the image below. **Leave around 4cm of untaped cable** on the side where the extender is. I found that this is necessary otherwise the Index face gasket will not fit over them. On the other side, tape all the way to ESPs. Taping is important to keep the cables safe from damage. Use image below as a guide.
+Tape the camera and LED wires up like on the image below. **Leave around 4cm of untaped cable** on the side where the extension connector is. I found that this is necessary otherwise the Index face gasket will not fit over them. On the other side, tape all the way to ESPs. Taping is important to keep the cables safe from damage. Use image below as a guide.
 
 ![Assembly 19](img/19.jpg?raw=true)
 
@@ -124,7 +124,7 @@ Now insert the `Frunk_Lower` printed part into the frunk, while guiding the hub'
 
 ![Assembly 26](img/26.jpg?raw=true)
 
-Prepare 2x M3*10 Counter Sunk Screws. Tighten them into the two holes on the `Frunk_Lower`. Once you are done tightening, the assembly should provide a solid base for the rest of ThoriTrack. From my experience, it cannot be removed by hand, as the upper and lower part hold themselves inside the funk. This whole assembly ensurws that you don't need to disassemble your Index.
+Prepare 2x M3*10 Counter Sunk Screws. Tighten them into the two holes on the `Frunk_Lower`. Once you are done tightening, the assembly should provide a solid base for the rest of ThoriTrack. From my experience, it cannot be removed by hand, as the upper and lower part hold themselves inside the funk. This whole assembly ensures that you don't need to disassemble your Index.
 
 ![Assembly 27](img/27.jpg?raw=true)
 
@@ -146,11 +146,11 @@ This might be a good moment to check if the hub assembly works. Plug in your Ind
 
 ![Assembly 32](img/32.jpg?raw=true)
 
-We will now prepare the face tracking arm. Take `Face_Upper` and `Face_Lower` printed parts and tighten them together using an M4 Lock Nut and an M4*20 Counter Sunk Screw. You might need to use some pliers to hold the nut in place, as it can be hard (impossible) to tighten the locking nut by hand. Tighten it enough so that the arm can be folded with acceptable resistance. You will be able to use this later to fold up your face tracking.
+We will now prepare the face tracking arm. Take `Face_Upper` and `Face_Lower` printed parts and tighten them together using an M4 Lock Nut and an M4*20 Counter Sunk Screw. Orientation of the parts is important, so use the image below as reference. You might need to use some pliers to hold the nut in place, as it can be hard (impossible) to tighten the locking nut by hand. Tighten it enough so that the arm can be folded with acceptable resistance. You will be able to use this later to fold up your face tracking.
 
 ![Assembly 33](img/33.jpg?raw=true)
 
-Mount both the previously built Eye Tracking Assembly and the newly built arm onto the `USB_Hub` part. Use 4x M3*10 Hex Head Screws for the Eye Tracking and 2x M3*8 Hex Head Screws for the arm. Arm is attached to the holes where you have previously inserted the nuts. Use image below as reference.
+Mount both the previously built Eye Tracking Assembly and the newly built arm onto the `USB_Hub` part. Use 4x M3\*10 Hex Head Screws for the Eye Tracking and 2x M3*8 Hex Head Screws for the arm. Arm is attached to the holes where you have previously inserted the nuts. Use image below as reference.
 
 ![Assembly 34](img/34.jpg?raw=true)
 
@@ -158,13 +158,13 @@ We will now attach the eye rings. Remove the magnetic face gasket from the Index
 
 ![Assembly 35](img/35.jpg?raw=true)
 
-Now carefully slide the eye rings onto the lens housings of the Index. The housings are rubber so they should neatly fit on. Take great care of the wires so you dont pinch anything. Wires should be tucked to the side of the lenses. You can also move the IPD slider a bit to see if the lenses can still move freely and that nothing is getting pinched. Check images below.
+Now carefully slide the eye rings onto the lens housings of the Index. The housings are rubber so they should neatly fit on. Take great care of the wires so you don't pinch anything. Wires should be tucked to the side of the lenses. You can also move the IPD slider a bit to see if the lenses can still move freely and that nothing is getting pinched. Check images below.
 
 ![Assembly 36](img/36.jpg?raw=true)
 
 ![Assembly 37](img/37.jpg?raw=true)
 
-Place the face gasket back on. Take note of how the wires reach the lense area. Make sure that they are not above the screws in the frame of the Index, otherwise the magnets won't be able to snap the gasket in.
+Place the face gasket back on. Take note of how the wires reach the lens area. Make sure that they are not above the screws in the frame of the Index, otherwise the magnets won't be able to snap the gasket in.
 
 ![Assembly 38](img/38.jpg?raw=true)
 
@@ -172,12 +172,14 @@ Use 2 of the USB-C to USB-C cables to wire up the two ESPs with the USB hub. It 
 
 ![Assembly 39](img/39.jpg?raw=true)
 
-Finally, attach the Vive Facial Tracker to the bottom of the arm. Use an M4 Lock Nut and an M4*20 Counter Sunk Screw in a similar way like for the mittle of the arm. Once done, plug it into the side USB port on the hub.
+Finally, attach the Vive Facial Tracker to the bottom of the arm. Use an M4 Lock Nut and an M4*20 Counter Sunk Screw in a similar way like for the middle of the arm. Once done, plug it into the side USB port on the hub.
 
 ![Assembly 40](img/40.jpg?raw=true)
 
 ![Assembly 41](img/41.jpg?raw=true)
 
-**And you are done! Enjoy your assembled ThoriTrack!** Feel free to look at the [Recommended Software](../README.md#recommended-software) section on the home page to see which software I run for best eye and face tracking.
+**And you are done! Enjoy your assembled ThoriTrack!** 
+
+Feel free to look at the [Recommended Software](../README.md#recommended-software) section on the home page to see which software I run for best eye and face tracking.
 
 ![Assembled!](../img/Overview-Front.jpg?raw=true)
