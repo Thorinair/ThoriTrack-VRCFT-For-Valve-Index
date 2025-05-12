@@ -78,6 +78,8 @@ Place the `EyeRing_Top_L` and `EyeRing_Top_R` printed parts over the bottom ones
 
 Place the cameras into the round half-slots and tighten them using the `EyeRing_Camera` printed parts. There is one for each eye. Use 2x M2*6 Hex Head Screw to tighten. The final eyering assembly should look like on the image below. Do this for both left and right eyes.
 
+This is also the point at which you can attach the heatsinks to the cameras. This is not necessary from my experience, and will significantly lower the max IPD (by around 5 mm). However, if you feel like you want to do this, you can!
+
 ![Assembly 16](img/16.jpg?raw=true)
 
 Lay the two eyerings out on your work area and make note of how the camera cables are twisted in the image below. Make sure that they aren't tangled or anything like that. Plug in the LED wires into the V4 Lite board again. For convenience, the printed part also has small + symbols on it for wire orientation.
@@ -102,4 +104,80 @@ The construction of the Eye Tracking Assembly is now complete! You can put it to
 
 ## 4. Building The Index Assembly
 
-**TODO: Need to still write this guide!**
+Begin by preparing the USB hub. Attach the USB A to USB-C adapter to it.
+
+![Assembly 22](img/22.jpg?raw=true)
+
+Remove the magnetic front cover on the Index and clean up the inside. Apply a double sided tape on the bottom of the frunk like on the image below.
+
+![Assembly 23](img/23.jpg?raw=true)
+
+Insert the `Frunk_Upper` printed part into the top of the frunk. It should latch onto the vent grills. If it doesn't you might need to adjust something with the printer's tolerances. It is a very precise fit.
+
+![Assembly 24](img/24.jpg?raw=true)
+
+Now plug the USB hub (via the adapter) into the USB socket on the Index.
+
+![Assembly 25](img/25.jpg?raw=true)
+
+Now insert the `Frunk_Lower` printed part into the frunk, while guiding the hub's cable through the slot on the side. This is a bit of a tight fit. Expect to hear creaking plastic as the printed parts' layers brush against each other. It is okay if you cannot push it all the way in, but try to do it as much as you can.
+
+![Assembly 26](img/26.jpg?raw=true)
+
+Prepare 2x M3*10 Counter Sunk Screws. Tighten them into the two holes on the `Frunk_Lower`. Once you are done tightening, the assembly should provide a solid base for the rest of ThoriTrack. From my experience, it cannot be removed by hand, as the upper and lower part hold themselves inside the funk. This whole assembly ensurws that you don't need to disassemble your Index.
+
+![Assembly 27](img/27.jpg?raw=true)
+
+![Assembly 28](img/28.jpg?raw=true)
+
+Prepare the `USB_Hub` printed part by inserting 2x M3 Nuts. They aren't held by anything so take care that they don't fall out.
+
+![Assembly 29](img/29.jpg?raw=true)
+
+Insert the USB hub into the printed part. Pay attention to the orientation. Nuts should be on the lower side of the Index, while USB sockets should be on the upper.
+
+![Assembly 30](img/30.jpg?raw=true)
+
+Tighten the `USB_Hub` printed part into the frunk assembly together with the hub itself. Use 4x M3*20 Hex Head Screws for this.
+
+![Assembly 31](img/31.jpg?raw=true)
+
+This might be a good moment to check if the hub assembly works. Plug in your Index into your PC and see if the hub comes online. There is a hole in the printed part which allows the white LED to be visible. You can also check if the USB-C ports work by plugging in some devices.
+
+![Assembly 32](img/32.jpg?raw=true)
+
+We will now prepare the face tracking arm. Take `Face_Upper` and `Face_Lower` printed parts and tighten them together using an M4 Lock Nut and an M4*20 Counter Sunk Screw. You might need to use some pliers to hold the nut in place, as it can be hard (impossible) to tighten the locking nut by hand. Tighten it enough so that the arm can be folded with acceptable resistance. You will be able to use this later to fold up your face tracking.
+
+![Assembly 33](img/33.jpg?raw=true)
+
+Mount both the previously built Eye Tracking Assembly and the newly built arm onto the `USB_Hub` part. Use 4x M3*10 Hex Head Screws for the Eye Tracking and 2x M3*8 Hex Head Screws for the arm. Arm is attached to the holes where you have previously inserted the nuts. Use image below as reference.
+
+![Assembly 34](img/34.jpg?raw=true)
+
+We will now attach the eye rings. Remove the magnetic face gasket from the Index and pull the two loose eye ring assemblies over the top of the headset. Should be like in the image below.
+
+![Assembly 35](img/35.jpg?raw=true)
+
+Now carefully slide the eye rings onto the lens housings of the Index. The housings are rubber so they should neatly fit on. Take great care of the wires so you dont pinch anything. Wires should be tucked to the side of the lenses. You can also move the IPD slider a bit to see if the lenses can still move freely and that nothing is getting pinched. Check images below.
+
+![Assembly 36](img/36.jpg?raw=true)
+
+![Assembly 37](img/37.jpg?raw=true)
+
+Place the face gasket back on. Take note of how the wires reach the lense area. Make sure that they are not above the screws in the frame of the Index, otherwise the magnets won't be able to snap the gasket in.
+
+![Assembly 38](img/38.jpg?raw=true)
+
+Use 2 of the USB-C to USB-C cables to wire up the two ESPs with the USB hub. It is okay if it pushes the camera wires off to the sides.
+
+![Assembly 39](img/39.jpg?raw=true)
+
+Finally, attach the Vive Facial Tracker to the bottom of the arm. Use an M4 Lock Nut and an M4*20 Counter Sunk Screw in a similar way like for the mittle of the arm. Once done, plug it into the side USB port on the hub.
+
+![Assembly 40](img/40.jpg?raw=true)
+
+![Assembly 41](img/41.jpg?raw=true)
+
+**And you are done! Enjoy your assembled ThoriTrack!** Feel free to look at the [Recommended Software](../README.md#recommended-software) section on the home page to see which software I run for best eye and face tracking.
+
+![Assembled!](../img/Overview-Front.jpg?raw=true)
