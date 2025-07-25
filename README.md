@@ -7,7 +7,7 @@ ThoriTrack is a mounting solution designed by Thorinair for mounting EyeTrackVR 
 
 This repository provides the STL files for 3D printing out your own ThoriTrack, as well as source blend files.
 
-**UPDATE: 2025-07-25**
+### UPDATE: 2025-07-25
 
 The cable management has had a bit of a redesign. Relevant info has been edited in the Hardware list, and an update has been added to the Assembly Guide.
 
