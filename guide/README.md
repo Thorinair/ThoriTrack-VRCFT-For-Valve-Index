@@ -2,6 +2,21 @@
 
 Below is an assembly guide for building your own ThoriTrack. Pay close attention to all steps as some might be important.
 
+## 0. IMPORTANT UPDATE 2025-07-25
+
+There have been some changes to the cable management. The cables as they were originally proved to have too much bend in them. The USB Hub cable was bent badly enough that just touching it could cause a dropout in the connection, and the cables to the ESPs were putting a lot of strain on the ESP USB-C sockets. The new cable management uses more bendable cables, angled cables, and an extension cable to relieve all of this stress.
+
+As a result of this, some pictures throughout the rest of the Assembly Guide may be outdated. To help you out, I am including pictures of how the cable management **should** be done after the updates. Please keep these pictures in mind as you go through the steps, and make adjustments as necessary.
+
+Changes:
+
+* Cables that connect the USB Hub to the ESPs are now 15cm braided angled cables.
+* USB Hub uses a braided extension cable to connect to the adapter inside the Index frunk.
+
+![Changes 01](img/c01.jpg?raw=true)
+![Changes 02](img/c02.jpg?raw=true)
+![Changes 03](img/c03.jpg?raw=true)
+
 ## 1. Part Acquisition
 
 Navigate back to the root of the repository and buy all of the parts listed in the [Hardware](../README.md#hardware) section. All parts are important unless listed as optional. Feel free to get the screws wherever is easiest, maybe at a local construction store, or from AliExpress or some other website.
